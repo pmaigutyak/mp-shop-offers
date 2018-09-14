@@ -30,8 +30,6 @@ pip install django-mp-shop-offers
             $target: $('[data-role="show-price-offer-modal"]')
         });
 
-        $('.pgwSlideshow').pgwSlideshow();
-        $('.pgwSlideshow .ps-current a').attr('data-fancybox', 'gallery').fancybox();
     });
 </script>
 ```
