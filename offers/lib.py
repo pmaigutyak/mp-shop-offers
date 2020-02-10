@@ -16,7 +16,9 @@ def send_new_price_offer_notification(offer):
 
     html = render_to_string('offers/notifications/email.html', context)
 
-    mail_managers(subject=subject, message='', html_message=html)
+    mail_managers(
+        subject=subject, message='', html_message=html, fail_silently=True
+    )
 
     if apps.is_installed('turbosms'):
 
