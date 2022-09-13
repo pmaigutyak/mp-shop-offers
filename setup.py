@@ -9,7 +9,6 @@ setup(
     name='django-mp-shop-offers',
     version=version,
     description='Django shop offers app',
-    long_description=open('README.md').read(),
     author='Paul Maigutyak',
     author_email='pmaigutyak@gmail.com',
     url=url,
