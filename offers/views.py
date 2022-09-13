@@ -2,7 +2,7 @@
 from django.apps import apps
 from django.shortcuts import render, get_object_or_404
 from django.http.response import HttpResponse
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.views.decorators.http import require_POST, require_GET
 
 from offers.forms import ProductPriceOfferForm

@@ -1,7 +1,7 @@
 
 from django.apps import apps
 from django.core.mail import mail_managers
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.template.loader import render_to_string
 from django.contrib.sites.models import Site
 
